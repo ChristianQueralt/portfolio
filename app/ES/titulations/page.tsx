@@ -18,7 +18,6 @@ export default async function TitulationsES() {
           ))}
         </ul>
       </Section>
-
-¡    </>
+    </>
   );
 }
