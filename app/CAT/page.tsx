@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Section from "../../components/Section";
-import { about, contact } from "../../lib/data";
+import { about } from "../../lib/data";
 import { getDictionary } from "../../i18n";
 
 export default async function HomeCAT() {

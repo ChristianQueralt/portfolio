@@ -1,3 +1,4 @@
+import type { Dictionary } from "../i18n";
 const es = {
   nav: {
     home: "Inicio",
@@ -111,5 +112,5 @@ contactLabels: {
   linkedin: "LinkedIn",
   addresses: "Direcciones",
 },
-};
+} satisfies Dictionary;
 export default es;

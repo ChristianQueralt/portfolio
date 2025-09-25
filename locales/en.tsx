@@ -1,3 +1,5 @@
+import type { Dictionary } from "../i18n";
+
 const en = {
   nav: {
     home: "Home",
@@ -110,5 +112,5 @@ contactLabels: {
   linkedin: "LinkedIn",
   addresses: "Addresses",
 },
-};
+} satisfies Dictionary;
 export default en;

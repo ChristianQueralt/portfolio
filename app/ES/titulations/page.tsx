@@ -9,7 +9,7 @@ export default async function TitulationsES() {
     <>
       <Section title={dict.sections.titulations} subtitle="Estudios reglados">
         <ul className="grid gap-4">
-          {dict.content.education.map((e: any) => (
+          {dict.content.education.map((e) => (
             <li key={e.title} className="rounded-2xl border border-white/15 p-4">
               <h3 className="text-base font-semibold text-white">{e.title}</h3>
               <p className="text-white/80">{e.org} — {e.period}</p>

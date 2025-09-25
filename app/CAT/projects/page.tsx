@@ -10,7 +10,7 @@ export default async function ProjectsCAT() {
     <>
       <Section title={dict.sections.projects} subtitle="Projectes destacats">
         <div className="grid gap-6 sm:grid-cols-2">
-          {dict.content.projects.map((p: any) => (
+          {dict.content.projects.map((p) => (
             <ProjectCard key={p.title} title={p.title} description={p.description} tech={p.tech} links={p.links} />
           ))}
         </div>

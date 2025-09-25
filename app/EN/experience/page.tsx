@@ -9,7 +9,7 @@ export default async function ExperienceEN() {
     <>
       <Section title={dict.sections.experience} subtitle="Internships and placements">
         <ul className="grid gap-4">
-          {dict.content.experience.map((exp: any) => (
+          {dict.content.experience.map((exp) => (
             <li key={`${exp.org}-${exp.period}`} className="rounded-2xl border border-white/15 p-4">
               <h3 className="text-base font-semibold text-white">{exp.role}</h3>
               <p className="text-white/80">{exp.org} — {exp.period}</p>
