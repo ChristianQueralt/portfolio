@@ -3,7 +3,7 @@ import { getDictionary } from "../../../i18n";
 
 export default async function ExperienceEN() {
   const dict = await getDictionary("EN");
-  const base = "/EN";
+  // const base =/EN";
 
   return (
     <>

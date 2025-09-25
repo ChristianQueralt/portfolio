@@ -3,7 +3,7 @@ import { getDictionary } from "../../../i18n";
 
 export default async function CurrentlyCAT() {
   const dict = await getDictionary("CAT");
-  const base = "/CAT";
+  // const base =/CAT";
 
   return (
     <>

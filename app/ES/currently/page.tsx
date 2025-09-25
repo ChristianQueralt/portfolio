@@ -3,7 +3,7 @@ import { getDictionary } from "../../../i18n";
 
 export default async function CurrentlyES() {
   const dict = await getDictionary("ES");
-  const base = "/ES";
+  // const base =/ES";
 
   return (
     <>

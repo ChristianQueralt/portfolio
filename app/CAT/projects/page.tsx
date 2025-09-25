@@ -4,7 +4,7 @@ import { getDictionary } from "../../../i18n";
 
 export default async function ProjectsCAT() {
   const dict = await getDictionary("CAT");
-  const base = "/CAT";
+  // const base =/CAT";
 
   return (
     <>

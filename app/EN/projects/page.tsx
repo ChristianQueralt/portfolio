@@ -4,7 +4,7 @@ import { getDictionary } from "../../../i18n";
 
 export default async function ProjectsEN() {
   const dict = await getDictionary("EN");
-  const base = "/EN";
+  // const base =/EN";
 
   return (
     <>
